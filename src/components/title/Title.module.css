@@ -1,0 +1,123 @@
+.title {
+  padding-top: 170px;
+  height: 550px;
+
+  position: relative;
+}
+
+.title__design{
+  background: url(../assets/img/sec1.jpg)no-repeat center/cover;
+}
+
+.title__layer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background:rgba(80, 0, 51, 0.9);
+}
+
+
+.title__container{
+  width: 960px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.title__body{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+
+.title__text{
+  font-size: 40px;
+  margin: 0 0 30px 0;
+  color: #fff;
+  z-index: 99;
+  text-transform: uppercase;
+}
+
+.title__sale{
+  font-size: 25pt;
+  font-weight: bold;
+  color: #fd0;
+  margin: 0 0 66px 0;
+}
+
+.title__button{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.title__link{
+  padding: 18px 30px;
+  border-radius: 8px;
+  background:#fff;
+  color:#f05;
+  font-size: 18pt;
+  font-weight: bold;
+  box-shadow: 0 1px 3px #111;
+  position: relative;
+  left: 90px;
+  transition: all 0.3s;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title__link:hover{
+  background: #fafafa;
+  transform: scale(1.1);
+  box-shadow: 0 3px 3px #502;
+}
+
+@media (max-width: 960px){
+
+  .title{
+    height: 400px;
+  }
+  
+  .title__container {
+     width: 640px;
+  }
+
+  .title__text{
+    font-size: 30px;
+    margin: 0 0 10px 0;
+  }
+}
+
+@media (max-width: 639px){
+  .title__container {
+    width: 300px;
+    text-align: center;
+ }
+
+ .title__layer{
+  width:100% !important;
+ }
+
+ .title__body{
+  width: 100% !important;
+ }
+
+ .title__text{
+  font-size: 22px;
+ }
+
+ .title__button{
+    justify-content: center;
+  }
+
+  .title__link{
+    left: 0px;
+  }
+
+}

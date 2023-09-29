@@ -1,0 +1,17 @@
+.footer{
+  background: url(../assets/img/rew.jpeg) no-repeat center;
+  min-height: 300px;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.footer__body{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 30px;
+}
+
+.footer__text{
+  color: #fff;
+}
